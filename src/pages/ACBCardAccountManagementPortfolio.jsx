@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function ACBCardAccountManagementPortfolio() {
 
   const stats = [
@@ -22,7 +23,12 @@ export default function ACBCardAccountManagementPortfolio() {
   return (
     <section className="min-h-screen bg-slate-950 text-white p-8">
       <div className="max-w-7xl mx-auto space-y-8">
-
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-5 py-3 rounded-2xl transition mb-4"
+        >
+          ← Back Home
+        </Link>
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-2xl">
 
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
